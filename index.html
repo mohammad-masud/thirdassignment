@@ -12,7 +12,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <nav class="grid grid-cols-3 bg-[#F85559] max-w-screen-xl mx-auto rounded-3xl my-10">
+    <nav class="grid  lg:grid-cols-3 bg-[#F85559] max-w-screen-xl mx-auto rounded-3xl my-10">
         <div>
             <ul class="flex justify-around content-center pt-5 text-white">
                 <li>Home</li>
@@ -26,10 +26,10 @@
             <h2 class="text-5xl font-extrabold text-white">Fruit Burst</h2>
         </div>
 
-        <div class="form-control rounded-3xl">
-            
-              <input type="text" placeholder="Search" class="input input-bordered  " />
-            <i class="fa-thin fa-magnifying-glass"></i>
+        <div class=" rounded-3xl pt-1 ">
+              <div><i class="fa-solid fa-magnifying-glass fa-xs absolute top-16 right-64 "></i></div>
+              <div><input type="text" placeholder="Search" class="input input-bordered  " /></div>
+              
             
         </div>
 
@@ -90,7 +90,7 @@
             </div>
           </div>
           <!-- banner section end -->
-          <div class="grid grid-cols-5 max-w-4xl bg-slate-50 relative bottom-20 mx-auto">
+          <div class="grid  grid-cols-5 max-w-4xl bg-slate-50 relative bottom-20 mx-auto">
             <div>
                 <img src="images/fruit1.png" alt="">
                 <p class="text-xs pl-8">Grap</p>
@@ -154,7 +154,7 @@
           <!-- coundown part end here -->
 
           <!-- first card start here -->
-          <div class="grid grid-cols-4">
+          <div class="grid grid-cols-1 lg:grid-cols-4">
             <div class="card bg-base-100 shadow-xl">
             <figure><img src="images/fruit6.png" alt="Shoes" /></figure>
             <div class="card-body">
